@@ -79,7 +79,7 @@ module.exports = function (router) {
         { userid: user._id, role_id: user.role_id },
         SECRET_KEY,
         {
-          expiresIn: "2h",
+          expiresIn: "744h",
         }
       );
 

@@ -14,7 +14,7 @@ app.use((express.json({limit:"50mb"})))
 app.use(cookies())
 app.use(
     cors({
-      origin: ["https://wbpanel.epizy.com","http://localhost:4200","https://webbuilder-portfolio.epizy.com","https://my-portfolio-59990.web.app"],
+      origin: ["http://wbpanel.epizy.com","https://wbpanel.epizy.com","http://localhost:4200","https://webbuilder-portfolio.epizy.com","https://my-portfolio-59990.web.app"],
       credentials: true,
     })
   );

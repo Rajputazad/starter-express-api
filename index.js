@@ -6,6 +6,7 @@ const port=process.env.PORT
 const app = express();
 const router = express.Router()
 const App=require("./routes/App")(router)
+require("./routes/User")(router)
 app.use(express.json());
 const cors = require("cors")
 const cookies = require("cookie-parser")
